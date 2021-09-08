@@ -1,6 +1,9 @@
 # Deluged-Service-Raspberry-Pi
 Cài đặt Deluge và Deluge-Web lên Raspberry Pi dưới dạng deamon và tự động khởi chạy sau khi khởi động.
 
+Deluge là một mã nguồn mở BitTorrent đa nền tảng được viết bằng ngôn ngữ Python. Chúng ta cần cài đặt 2 ứng dụng chính deluged và deluge-web. Bạn có thể tải file từ torrent và lưu trực tiếp lên thẻ nhớ đang chạy Raspberry Pi OS. Tuy nhiên, nếu sử dụng một USB 3.0 hoặc ổ cứng di động, tốc độ sẽ được cải thiện rất nhiều. 
+
+Hướng dẫn chi tiết:
 
 1. Update Raspberry Pi lên bản mới nhất với
 ```
@@ -95,6 +98,19 @@ sudo systemctl status deluge-web
 Sau khi hoàn tất, bạn có thể khởi động lại Raspberry Pi để kiểm tra
 
 7. Tiếp tục cấu hình Deluge thông qua trình duyệt trên Raspberry Pi với 127.0.0.1:8112 hoặc từ một máy tính khác với địa chỉ IP:8112
+
+Mật khẩu Deluge Web mặc định là 
+
+>deluge
+
+Bạn có thể tìm thấy video hướng dẫn toàn bộ quá trình cài đặt ở bên dưới:
+
+> https://www.facebook.com/CytronTech.vn/posts/244651807666371
+
+Ngoài ra, các sản phẩm trong video có thể tìm thấy tại [Cửa hàng trực tuyến của Cytron](https://cytrontech.vn/?tracking=vngh)
+
+Chúc thành công!
+
 
 
 
